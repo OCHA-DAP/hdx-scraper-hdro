@@ -30,7 +30,7 @@ def get_countriesdata(hdro_url, downloader):
     return countriesdata
 
 
-def generate_dataset_and_showcase(folder, countryiso, countrydata):
+def generate_dataset_and_showcase(folder, countryiso, countrydata, qc_indicators):
     countryname = Country.get_country_name_from_iso3(countryiso)
     title = '%s - Human Development Indicators' % countryname
     slugified_name = slugify('HDRO data for %s' % countryname).lower()
@@ -39,7 +39,7 @@ def generate_dataset_and_showcase(folder, countryiso, countrydata):
         'name': slugified_name,
         'title': title
     })
-    dataset.set_maintainer('196196be-6037-4488-8b71-d786adf4c081')
+    dataset.set_maintainer('872427e4-7e9b-44d6-8c58-30d5052a00a2')
     dataset.set_organization('89ebe982-abe9-4748-9dde-cf04632757d6')
     dataset.set_expected_update_frequency('Every year')
     dataset.set_subnational(False)
@@ -52,9 +52,9 @@ def generate_dataset_and_showcase(folder, countryiso, countrydata):
         'name': 'Human Development Indicators for %s' % countryname,
         'description': 'Human development data with HXL tags'
     }
-    quickcharts = {'hashtag': '#indicator+code', 'values': ['137506', '138806', '68606'],
+    quickcharts = {'hashtag': '#indicator+code', 'values': [x['code'] for x in qc_indicators],
                    'cutdown': 2, 'cutdownhashtags': ['#indicator+code', '#date+year', '#indicator+value+num']}
-    success, results = dataset.generate_resource_from_download(
+    success, results = dataset.generate_resource_from_iterator(
         countrydata[0].keys(), countrydata, hxltags, folder, filename, resourcedata,
         yearcol='year', quickcharts=quickcharts)
     if success is False:

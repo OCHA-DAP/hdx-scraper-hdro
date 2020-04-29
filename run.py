@@ -23,19 +23,21 @@ lookup = 'hdx-scraper-hdro'
 def main():
     """Generate dataset and create it in HDX"""
 
-    hdro_url = Configuration.read()['hdro_url']
+    configuration = Configuration.read()
+    hdro_url = configuration['hdro_url']
+    qc_indicators = configuration['qc_indicators']
     with Download() as downloader:
         countriesdata = get_countriesdata(hdro_url, downloader)
         countries = [{'iso3': countryiso} for countryiso in sorted(countriesdata.keys())]
         logger.info('Number of countries to upload: %d' % len(countries))
-        for folder, country in progress_storing_tempdir('HDRO',  countries, 'iso3'):
+        for info, country in progress_storing_tempdir('HDRO',  countries, 'iso3'):
             countryiso = country['iso3']
             countrydata = countriesdata[countryiso]
-            dataset, showcase, bites_disabled = generate_dataset_and_showcase(folder, countryiso, countrydata)
+            dataset, showcase, bites_disabled = generate_dataset_and_showcase(info['folder'], countryiso, countrydata, qc_indicators)
             if dataset:
                 dataset.update_from_yaml()
-                dataset.generate_resource_view(-1, bites_disabled=bites_disabled)
-                dataset.create_in_hdx(remove_additional_resources=True, hxl_update=False, updated_by_script='HDX Scraper: HDRO')
+                dataset.generate_resource_view(-1, bites_disabled=bites_disabled, indicators=qc_indicators)
+                dataset.create_in_hdx(remove_additional_resources=True, hxl_update=False, updated_by_script='HDX Scraper: HDRO', batch=info['batch'])
                 showcase.create_in_hdx()
                 showcase.add_dataset(dataset)
 

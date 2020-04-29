@@ -1,3 +1,13 @@
 # Collector specific configuration
 hdro_url: "http://lala/"
+qc_indicators:
+  - code: "137506"
+    title: "Human Development Index (HDI)"
+    unit: "Index"
+  - code: "138806"
+    title: "Inequality-adjusted HDI (IHDI)"
+    unit: "Index"
+  - code: "68606"
+    title: "Gender Inequality Index (GII)"
+    unit: "Index"
 

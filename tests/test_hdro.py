@@ -55,6 +55,7 @@ class TestHDRO:
         Country.countriesdata(use_live=False)
         Vocabulary._tags_dict = True
         Vocabulary._approved_vocabulary = {'tags': [{'name': 'hxl'}, {'name': 'indicators'}, {'name': 'health'}, {'name': 'education'}, {'name': 'socioeconomic'}, {'name': 'demographics'}, {'name': 'development'}], 'id': '4e61d464-4943-4e97-973a-84673c1aaa87', 'name': 'approved'}
+        return Configuration.read()
 
     @pytest.fixture(scope='function')
     def downloader(self):
@@ -66,10 +67,10 @@ class TestHDRO:
 
     def test_generate_dataset_and_showcase(self, configuration):
         with temp_dir('HDRO') as folder:
-            dataset, showcase, bites_disabled = generate_dataset_and_showcase(
-                folder, 'AFG', hdro_data)
+            qc_indicators = configuration['qc_indicators']
+            dataset, showcase, bites_disabled = generate_dataset_and_showcase(folder, 'AFG', hdro_data, qc_indicators)
             assert dataset == {'name': 'hdro-data-for-afghanistan', 'title': 'Afghanistan - Human Development Indicators',
-                               'maintainer': '196196be-6037-4488-8b71-d786adf4c081', 'owner_org': '89ebe982-abe9-4748-9dde-cf04632757d6',
+                               'maintainer': '872427e4-7e9b-44d6-8c58-30d5052a00a2', 'owner_org': '89ebe982-abe9-4748-9dde-cf04632757d6',
                                'data_update_frequency': '365', 'subnational': '0', 'groups': [{'name': 'afg'}],
                                'tags': [{'name': 'health', 'vocabulary_id': '4e61d464-4943-4e97-973a-84673c1aaa87'}, {'name': 'education', 'vocabulary_id': '4e61d464-4943-4e97-973a-84673c1aaa87'}, {'name': 'socioeconomic', 'vocabulary_id': '4e61d464-4943-4e97-973a-84673c1aaa87'}, {'name': 'demographics', 'vocabulary_id': '4e61d464-4943-4e97-973a-84673c1aaa87'}, {'name': 'development', 'vocabulary_id': '4e61d464-4943-4e97-973a-84673c1aaa87'}, {'name': 'indicators', 'vocabulary_id': '4e61d464-4943-4e97-973a-84673c1aaa87'}, {'name': 'hxl', 'vocabulary_id': '4e61d464-4943-4e97-973a-84673c1aaa87'}], 'dataset_date': '01/01/2016-12/31/2017'}
             resources = dataset.get_resources()
