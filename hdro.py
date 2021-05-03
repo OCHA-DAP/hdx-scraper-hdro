@@ -13,6 +13,7 @@ import logging
 from hdx.data.dataset import Dataset
 from hdx.data.showcase import Showcase
 from hdx.location.country import Country
+from hdx.utilities.dateparse import parse_date_range, parse_date
 from hdx.utilities.dictandlist import dict_of_lists_add
 from slugify import slugify
 
@@ -54,9 +55,23 @@ def generate_dataset_and_showcase(folder, countryiso, countrydata, qc_indicators
     }
     quickcharts = {'hashtag': '#indicator+code', 'values': [x['code'] for x in qc_indicators],
                    'cutdown': 2, 'cutdownhashtags': ['#indicator+code', '#date+year', '#indicator+value+num']}
+
+    def yearcol_function(row):
+        result = dict()
+        year = row['year']
+        if year:
+            if len(year) == 9:
+                startyear = year[:4]
+                endyear = year[5:]
+                result['startdate'], _ = parse_date_range(startyear, date_format='%Y')
+                _, result['enddate'] = parse_date_range(endyear, date_format='%Y')
+            else:
+                result['startdate'], result['enddate'] = parse_date_range(year, date_format='%Y')
+        return result
+
     success, results = dataset.generate_resource_from_iterator(
         countrydata[0].keys(), countrydata, hxltags, folder, filename, resourcedata,
-        yearcol='year', quickcharts=quickcharts)
+        date_function=yearcol_function, quickcharts=quickcharts)
     if success is False:
         logger.error('%s has no data!' % countryname)
         return None, None, None
