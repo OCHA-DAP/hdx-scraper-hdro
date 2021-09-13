@@ -1,5 +1,5 @@
  ### Collector for HDRO's Datasets
-[![Build Status](https://travis-ci.org/OCHA-DAP/hdx-scraper-hdro.svg?branch=main&ts=1)](https://travis-ci.org/OCHA-DAP/hdx-scraper-hdro) [![Coverage Status](https://coveralls.io/repos/github/OCHA-DAP/hdx-scraper-hdro/badge.svg?branch=main&ts=1)](https://coveralls.io/github/OCHA-DAP/hdx-scraper-hdro?branch=main)
+[![Build Status](https://github.com/OCHA-DAP/hdx-scraper-hdro/workflows/build/badge.svg)](https://github.com/OCHA-DAP/hdx-scraper-hdro/actions?query=workflow%3Abuild) [![Coverage Status](https://coveralls.io/repos/github/OCHA-DAP/hdx-scraper-hdro/badge.svg?branch=main&ts=1)](https://coveralls.io/github/OCHA-DAP/hdx-scraper-hdro?branch=main)
 
 This script connects to the [HDRO API](http://hdr.undp.org/en/content/human-development-report-office-statistical-data-api) and extracts country by country creating a dataset per country in HDX. It makes one reads from HDRO and 1000 read/writes (API calls) to HDX in total. It creates around 2 temporary files per country of no more than 100Kb size. It is run every year. 
 
