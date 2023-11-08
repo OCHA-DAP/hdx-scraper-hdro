@@ -1,2 +1,9 @@
 # Collector specific configuration
 base_url: "https://api.hdrdata.org/CountryIndicators/"
+qc_indicators:
+  - code: 'GDI'
+    title: "Gender Development Index (GDI)"
+    unit: "Index"
+  - code: 'GII'
+    title: "Gender Inequality Index (GII)"
+    unit: "Index"

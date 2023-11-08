@@ -65,7 +65,7 @@ def get_country_data(base_url, downloader):
     return country_data, aggregate_data
 
 
-def generate_dataset(folder, countryiso, countrydata, filename, resource):
+def generate_dataset(folder, countryiso, countrydata, filename, resource, quickcharts):
     countryname = Country.get_country_name_from_iso3(countryiso)
     title = f"{countryname} - Human Development Indicators"
     logger.info(f"Creating dataset: {title}")
@@ -115,6 +115,7 @@ def generate_dataset(folder, countryiso, countrydata, filename, resource):
         filename,
         resource,
         date_function=yearcol_function,
+        quickcharts=quickcharts
     )
 
     if success is False:

@@ -28,7 +28,9 @@ lookup = "hdx-scraper-hdro"
 def main():
     """Generate dataset and create it in HDX"""
     with Download() as downloader:
-        base_url = Configuration.read()["base_url"]
+        configuration = Configuration.read()
+        base_url = configuration["base_url"]
+        qc_indicators = configuration["qc_indicators"]
         country_dict, aggregate_dict = get_country_data(base_url, downloader)
         countries = [
             {"iso3": countryiso} for countryiso in sorted(country_dict.keys())
@@ -48,7 +50,7 @@ def main():
                 "description": "Human development data with HXL tags"
             })
             dataset = generate_dataset(
-                info["folder"], countryiso, countrydata, filename, resource
+                info["folder"], countryiso, countrydata, filename, resource, None
             )
             if dataset:
                 datasets_to_update.append([dataset, info["batch"]])
@@ -62,12 +64,21 @@ def main():
                 "name": f"Aggregated Human Development Indicators for {countryname}",
                 "description": "Aggregated human development data with HXL tags"
             })
+            quickcharts = {
+                "hashtag": "#index+id",
+                "values": [x["code"] for x in qc_indicators],
+                "cutdown": 2,
+                "cutdownhashtags": ["#index+id", "#date+year", "#indicator+value+num"],
+            }
             datasetagg = generate_dataset(
-                info["folder"], countryiso, countryaggdata, filenameagg, resourceagg
+                info["folder"], countryiso, countryaggdata, filenameagg, resourceagg, quickcharts
             )
             if datasetagg:
                 datasets_to_update.append([datasetagg, info["batch"]])
                 datasetagg.update_from_yaml()
+                dataset.generate_resource_view(
+                    -1, indicators=qc_indicators
+                )
                 datasetagg.create_in_hdx(hxl_update=False, updated_by_script="HDX Scraper: HDRO", batch=info["batch"])
 
 
