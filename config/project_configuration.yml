@@ -2,8 +2,10 @@
 base_url: "https://api.hdrdata.org/CountryIndicators/"
 qc_indicators:
   - code: 'GDI'
+    code_col: "#index+id"
     title: "Gender Development Index (GDI)"
     unit: "Index"
   - code: 'GII'
+    code_col: "#index+id"
     title: "Gender Inequality Index (GII)"
     unit: "Index"
