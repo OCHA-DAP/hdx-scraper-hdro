@@ -37,8 +37,8 @@ class HDRO:
         self.country_data = {}
         self.aggregate_data = {}
 
-    def get_country_data(self):
-        for country_iso3 in Country.countriesdata()["countries"].keys():
+    def get_country_data(self, countries_to_process):
+        for country_iso3 in countries_to_process:
             base_url = self.configuration["base_url"]
             jsonresponse = self.retriever.download_json(f"{base_url}{country_iso3}")
 

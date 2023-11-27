@@ -122,7 +122,6 @@ class TestHDRO:
         ) as folder:
             with Download() as downloader:
                 retriever = Retrieve(downloader, folder, fixtures, folder, False, True)
-                configuration = Configuration.read()
                 qc_indicators = configuration["qc_indicators"]
                 quickcharts = {
                     "hashtag": "#index+id",
@@ -133,8 +132,8 @@ class TestHDRO:
 
                 # indicator dataset test
                 hdro = HDRO(configuration, retriever, folder)
-                # countries = hdro.get_country_data()
-                # assert countries[0] == {"iso3": "AFG"}
+                countries = hdro.get_country_data(["AFG"])
+                assert countries == [{"iso3": "AFG"}]
 
                 dataset = hdro.generate_dataset("AFG", quickcharts)
                 assert dataset == self.dataset

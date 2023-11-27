@@ -8,6 +8,7 @@ from os.path import join, expanduser
 
 from hdx.api.configuration import Configuration
 from hdx.facades.infer_arguments import facade
+from hdx.location.country import Country
 from hdx.utilities.downloader import Download
 from hdx.utilities.path import progress_storing_folder, wheretostart_tempdir_batch
 from hdx.utilities.retriever import Retrieve
@@ -33,7 +34,8 @@ def main(save: bool = False, use_saved: bool = False) -> None:
             configuration = Configuration.read()
             qc_indicators = configuration["qc_indicators"]
             hdro = HDRO(configuration, retriever, folder)
-            countries = hdro.get_country_data()
+            countries_to_process = Country.countriesdata()["countries"].keys()
+            countries = hdro.get_country_data(countries_to_process)
             logger.info(f"Number of countries to upload: {len(countries)}")
 
             for _, nextdict in progress_storing_folder(info, countries, "iso3"):
