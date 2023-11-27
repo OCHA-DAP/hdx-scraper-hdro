@@ -21,8 +21,8 @@ from hdro import HDRO
 
 class TestHDRO:
     dataset = {
-        "data_update_frequency": "Every year",
-        "dataset_date": "[2023-03-31T00:00:00 TO 2023-11-06T23:59:59]",
+        "data_update_frequency": "365",
+        "dataset_date": "[1990-01-01T00:00:00 TO 2021-12-31T23:59:59]",
         "groups": [{"name": "afg"}],
         "maintainer": "872427e4-7e9b-44d6-8c58-30d5052a00a2",
         "name": "hdro-data-for-afghanistan",
@@ -139,5 +139,9 @@ class TestHDRO:
                 assert dataset == self.dataset
                 resources = dataset.get_resources()
                 assert resources[0] == self.resources[0]
-                file = "hdro_indicators_AFG.csv"
+                file = "hdro_indicators_afg.csv"
                 assert_files_same(join("tests", "fixtures", file), join(folder, file))
+
+                assert resources[1] == self.resources[1]
+                file2 = "hdro_indicators_aggregates_afg.csv"
+                assert_files_same(join("tests", "fixtures", file2), join(folder, file2))

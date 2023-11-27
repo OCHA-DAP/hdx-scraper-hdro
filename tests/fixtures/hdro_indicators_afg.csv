@@ -1,0 +1,809 @@
+country_code,country_name,indicator_id,indicator_name,index_id,index_name,value,year
+#country+code,#country+name,#indicator+id,#indicator+name,#index+id,#index+name,#indicator+value+num,#date+year
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,142.96,1990
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,147.525,1991
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,147.521,1992
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,147.896,1993
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,155.669,1994
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,156.77,1995
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,154.932,1996
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,156.444,1997
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,154.262,1998
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,154.416,1999
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,152.572,2000
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,150.863,2001
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,148.141,2002
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,143.37,2003
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,138.827,2004
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,133.071,2005
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,126.106,2006
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,125.858,2007
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,128.171,2008
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,120.635,2009
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,120.82,2010
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,116.454,2011
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,111.286,2012
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,106.537,2013
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,101.454,2014
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,97.415,2015
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,94.018,2016
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,90.342,2017
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,88.431,2018
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,86.803,2019
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,84.296,2020
+AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,82.565,2021
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.209727313,1990
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.182524769,1991
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.095232862,1992
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.084284849,1993
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.075053905,1994
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.067943421,1995
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.061787143,1996
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.056005215,1997
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.052143695,1998
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.040132679,1999
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.036461584,2000
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.036930645,2001
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.046529388,2002
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.050082617,2003
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.035959937,2004
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.050802445,2005
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.061869518,2006
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.083710521,2007
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.151484676,2008
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.237367297,2009
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.287738705,2010
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.401953514,2011
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.327921976,2012
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.261571351,2013
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.232967187,2014
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.229679525,2015
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.190616791,2016
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.188995444,2017
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.22449203,2018
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.319299157,2019
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.312376488,2020
+AFG,Afghanistan,co2_prod,Carbon dioxide emissions per capita (production) (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,0.312376488,2021
+AFG,Afghanistan,coef_ineq,Coefficient of human inequality,IHDI,Inequality-adjusted Human Development Index,29.13924655,2010
+AFG,Afghanistan,coef_ineq,Coefficient of human inequality,IHDI,Inequality-adjusted Human Development Index,29.49569394,2011
+AFG,Afghanistan,coef_ineq,Coefficient of human inequality,IHDI,Inequality-adjusted Human Development Index,29.20871299,2012
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.098901099,1990
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.075268817,1991
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.045296167,1992
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.01010101,1993
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.02739726,1994
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.967741935,1995
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.940438871,1996
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.92879257,1997
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.925925926,1998
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.903614458,1999
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.194029851,2000
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.18694362,2001
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.104972376,2002
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.329787234,2003
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.020408163,2004
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1,2005
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.733496333,2006
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.70754717,2007
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.697674419,2008
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.909090909,2009
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.116071429,2010
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.315789474,2011
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.072961373,2012
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.054852321,2013
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,1.043841336,2014
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.836820084,2015
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.831600832,2016
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.829875519,2017
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.82815735,2018
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.819672131,2019
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.82815735,2020
+AFG,Afghanistan,diff_hdi_phdi,Difference from HDI value (%),PHDI,Planetary pressures–adjusted Human Development Index,0.836820084,2021
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,2.504050016,1990
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,2.806550026,1991
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,3.109050035,1992
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,3.411550045,1993
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,3.714050055,1994
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,4.016550064,1995
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,4.319050074,1996
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,4.621550083,1997
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,4.924050093,1998
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,5.226550102,1999
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,5.529050112,2000
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,5.831550121,2001
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,6.134050131,2002
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,6.43655014,2003
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,7.39387989,2004
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,7.660417938,2005
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,7.926955986,2006
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,8.193494034,2007
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,8.460032082,2008
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,8.726570129,2009
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,9.002689838,2010
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,9.278809547,2011
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,9.57732296,2012
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,9.875836372,2013
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,10.17434978,2014
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,10.18014979,2015
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,10.1859498,2016
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,10.19174981,2017
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,10.19754982,2018
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,10.26384398,2019
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,10.26384398,2020
+AFG,Afghanistan,eys,Expected Years of Schooling (years),HDI,Human Development Index,10.26384398,2021
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,1.970662649,1990
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,2.0966789,1991
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,2.230753402,1992
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,2.373401451,1993
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,2.525171289,1994
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,2.686646222,1995
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,2.858446852,1996
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,3.041233468,1997
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,3.23570858,1998
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,3.442619624,1999
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,3.662761828,2000
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,3.896981274,2001
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,4.146178147,2002
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,4.411310196,2003
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,4.137720108,2004
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,4.592572117,2005
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,5.047424126,2006
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,5.502276134,2007
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,5.957128143,2008
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,6.411980152,2009
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,6.819135189,2010
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.226290226,2011
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.423226833,2012
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.620163441,2013
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.817100048,2014
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.791942477,2015
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.766784906,2016
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.741627336,2017
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.716469765,2018
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.736391273,2019
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.736391273,2020
+AFG,Afghanistan,eys_f,"Expected Years of Schooling, female (years)",GDI,Gender Development Index,7.736391273,2021
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,3.939092538,1990
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,4.171639642,1991
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,4.417915329,1992
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,4.678730074,1993
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,4.954942201,1994
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,5.247460706,1995
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,5.557248247,1996
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,5.885324314,1997
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,6.232768583,1998
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,6.600724469,1999
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,6.99040289,2000
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,7.403086251,2001
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,7.840132666,2002
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,8.302980423,2003
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,10.46887016,2004
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,10.55986004,2005
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,10.65084991,2006
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,10.74183979,2007
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,10.83282967,2008
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,10.92381954,2009
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,11.07618475,2010
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,11.22854996,2011
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,11.62274996,2012
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,12.01694997,2013
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,12.41114998,2014
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,12.44831991,2015
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,12.48548985,2016
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,12.52265978,2017
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,12.55982971,2018
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,12.67218933,2019
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,12.67218933,2020
+AFG,Afghanistan,eys_m,"Expected Years of Schooling, male (years)",GDI,Gender Development Index,12.67218933,2021
+AFG,Afghanistan,gdi_group,GDI Group,GDI,Gender Development Index,5,2021
+AFG,Afghanistan,gii_rank,GII Rank,GII,Gender Inequality Index,167,2021
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,668.0557602,1990
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,564.9263743,1991
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,508.7507302,1992
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,374.5810925,1993
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,266.2076098,1994
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,328.4241349,1995
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,324.3166378,1996
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,297.8914719,1997
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,277.7259462,1998
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,258.5663333,1999
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,237.2676187,2000
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,216.8189728,2001
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,310.019029,2002
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,345.8247108,2003
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,344.9831452,2004
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,361.2608997,2005
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,379.7255676,2006
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,450.2102996,2007
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,434.2512158,2008
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,466.8929261,2009
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,510.7815973,2010
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,537.5166085,2011
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,585.0930232,2012
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,637.7671699,2013
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,506.1399397,2014
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,681.1316993,2015
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,712.0450633,2016
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,755.0683347,2017
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,755.8249851,2018
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,783.7023216,2019
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,635.2709896,2020
+AFG,Afghanistan,gni_pc_f,"Gross National Income Per Capita, female (2017 PPP$)",GDI,Gender Development Index,532.9553682,2021
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,4700.298515,1990
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3987.412921,1991
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3611.099678,1992
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,2675.906967,1993
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,1908.508902,1994
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,2347.28821,1995
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,2336.562506,1996
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,2157.935831,1997
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,2016.629812,1998
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,1878.913793,1999
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,1726.031083,2000
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,1564.229173,2001
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,2213.982986,2002
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,2442.948082,2003
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,2409.342035,2004
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,2492.272718,2005
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,2638.813517,2006
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3147.896767,2007
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3047.085012,2008
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3273.768702,2009
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3336.66999,2010
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3430.9836,2011
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3633.440859,2012
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3715.00501,2013
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3813.313521,2014
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3489.646939,2015
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3411.484186,2016
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3385.357825,2017
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3325.135032,2018
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3383.761271,2019
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3331.899909,2020
+AFG,Afghanistan,gni_pc_m,"Gross National Income Per Capita, male (2017 PPP$)",GDI,Gender Development Index,3089.270418,2021
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2684.550019,1990
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2276.289409,1991
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2059.868084,1992
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1525.533426,1993
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1087.96189,1994
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1339.087122,1995
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1332.30721,1996
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1230.26129,1997
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1149.90239,1998
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1071.800919,1999
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,984.9974338,2000
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,894.0245886,2001
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1267.628852,2002
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1401.324413,2003
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1384.695729,2004
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1435.19173,2005
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1518.767846,2006
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1811.166659,2007
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1753.066993,2008
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1884.200863,2009
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1938.315627,2010
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1999.653042,2011
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2125.862821,2012
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2193.553936,2013
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2178.507021,2014
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2101.589319,2015
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2077.566899,2016
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2085.487571,2017
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2054.939895,2018
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,2097.88945,2019
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1997.852149,2020
+AFG,Afghanistan,gnipc,Gross National Income Per Capita (2017 PPP$),HDI,Human Development Index,1824.190915,2021
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.196279945,1990
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.196378106,1991
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.199362258,1992
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.195311403,1993
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.182091907,1994
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.199483054,1995
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.204407892,1996
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.204163534,1997
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.203051618,1998
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.205236817,1999
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.203936948,2000
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.201547442,2001
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.23412425,2002
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.248561349,2003
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.24601711,2004
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.25804377,2005
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.270040327,2006
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.290083384,2007
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.296278756,2008
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.308813946,2009
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.322100371,2010
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.33352807,2011
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.344152186,2012
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.354771795,2013
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.34346564,2014
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.364833242,2015
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.37129479,2016
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.380054352,2017
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.383312051,2018
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.388959737,2019
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.3740333,2020
+AFG,Afghanistan,hdi_f,HDI female,GDI,Gender Development Index,0.36484023,2021
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.329910184,1990
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.334045576,1991
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.34022826,1992
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.356374407,1993
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.347560398,1994
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.367555056,1995
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.376092144,1996
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.380760776,1997
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.380485829,1998
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.39227905,1999
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.396252763,2000
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.400002035,2001
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.426736706,2002
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.441486253,2003
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.471733817,2004
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.476655583,2005
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.482456142,2006
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.494361998,2007
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.498714113,2008
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.507355452,2009
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.513389368,2010
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.519746648,2011
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.530178097,2012
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.538757274,2013
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.545574279,2014
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.5421892,2015
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.544158827,2016
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.540514172,2017
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.540119661,2018
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.546080741,2019
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.542963575,2020
+AFG,Afghanistan,hdi_m,HDI male,GDI,Gender Development Index,0.535610873,2021
+AFG,Afghanistan,hdi_rank,HDI Rank,HDI,Human Development Index,180,2021
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,42.809,2010
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,44.82338,2011
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,44.82338,2012
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,44.82338,2013
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,44.82338,2014
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,45.36517,2015
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,45.36517,2016
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,45.36517,2017
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,45.36517,2018
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,45.36517,2019
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,45.36517,2020
+AFG,Afghanistan,ineq_edu,Inequality in eduation,IHDI,Inequality-adjusted Human Development Index,45.36517,2021
+AFG,Afghanistan,ineq_inc,Inequality in income,IHDI,Inequality-adjusted Human Development Index,10.767,2010
+AFG,Afghanistan,ineq_inc,Inequality in income,IHDI,Inequality-adjusted Human Development Index,10.767,2011
+AFG,Afghanistan,ineq_inc,Inequality in income,IHDI,Inequality-adjusted Human Development Index,10.767,2012
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,33.84173965,2010
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,32.89670181,2011
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,32.03575897,2012
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,31.20422935,2013
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,30.7356205,2014
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,30.17712593,2015
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,29.33408546,2016
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,28.0697403,2017
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,27.50606918,2018
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,27.02128983,2019
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,26.43369865,2020
+AFG,Afghanistan,ineq_le,Inequality in life expectancy,IHDI,Inequality-adjusted Human Development Index,26.16536713,2021
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,45.9672,1990
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,46.6631,1991
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,47.5955,1992
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,51.4664,1993
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,51.4945,1994
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,52.5442,1995
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,53.2433,1996
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,53.6342,1997
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,52.9431,1998
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,54.8464,1999
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,55.2978,2000
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,55.7981,2001
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,56.4538,2002
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,57.3445,2003
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,57.9436,2004
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,58.3608,2005
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,58.6844,2006
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,59.1113,2007
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,59.8515,2008
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,60.3636,2009
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,60.8508,2010
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,61.4191,2011
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,61.923,2012
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,62.4167,2013
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,62.5451,2014
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,62.6587,2015
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,63.1361,2016
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,63.016,2017
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,63.081,2018
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,63.5645,2019
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,62.5751,2020
+AFG,Afghanistan,le,Life Expectancy at Birth (years),HDI,Human Development Index,61.9824,2021
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,48.3973,1990
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,49.1439,1991
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,50.3197,1992
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,52.7389,1993
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,53.5442,1994
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,54.0874,1995
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,54.8057,1996
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,55.1513,1997
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,54.8179,1998
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,56.3004,1999
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,56.8579,2000
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,57.3437,2001
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,57.6715,2002
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,58.6498,2003
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,59.2159,2004
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,59.6966,2005
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,60.2431,2006
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,60.909,2007
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,61.5289,2008
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,61.8922,2009
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,62.4078,2010
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,62.9926,2011
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,63.5135,2012
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,64.0268,2013
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,64.2743,2014
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,64.5759,2015
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,65.0957,2016
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,66.0993,2017
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,66.4576,2018
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,66.677,2019
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,65.432,2020
+AFG,Afghanistan,le_f,"Life Expectancy at Birth, female (years)",GDI,Gender Development Index,65.2791,2021
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,43.7088,1990
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,44.3528,1991
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,45.0697,1992
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,50.2164,1993
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,49.5307,1994
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,51.0387,1995
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,51.7216,1996
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,52.1525,1997
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,51.1337,1998
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,53.4104,1999
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,53.7617,2000
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,54.2716,2001
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,55.2265,2002
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,56.0316,2003
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,56.6578,2004
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,57.0128,2005
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,57.1332,2006
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,57.3416,2007
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,58.1715,2008
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,58.82,2009
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,59.2776,2010
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,59.8254,2011
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,60.3173,2012
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,60.7915,2013
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,60.8119,2014
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,60.7597,2015
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,61.1934,2016
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,60.1049,2017
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,59.9231,2018
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,60.6191,2019
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,59.8662,2020
+AFG,Afghanistan,le_m,"Life Expectancy at Birth, male (years)",GDI,Gender Development Index,58.9147,2021
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.18,1990
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.214,1991
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.223,1992
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.197,1993
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.178,1994
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.221,1995
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.078,1996
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,14.954,1997
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,14.873,1998
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,14.827,1999
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,14.795,2000
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,14.936,2001
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.113,2002
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.298,2003
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.475,2004
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.644,2005
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.455,2006
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.275,2007
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.137,2008
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.076,2009
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.111,2010
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.454,2011
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,15.879,2012
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,16.794,2013
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,17.749,2014
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,18.746,2015
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,19.798,2016
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,20.887,2017
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,21.228,2018
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,21.566,2019
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,16.189,2020
+AFG,Afghanistan,lfpr_f,"Labour force participation rate, female (% ages 15 and older)",GII,Gender Inequality Index,14.848,2021
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,77.43,1990
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,77.176,1991
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.871,1992
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.58,1993
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.33,1994
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.102,1995
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.14,1996
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.262,1997
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.415,1998
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.549,1999
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.646,2000
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.589,2001
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.491,2002
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.393,2003
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.332,2004
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.318,2005
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.422,2006
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.567,2007
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.712,2008
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.813,2009
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.842,2010
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.659,2011
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,76.42,2012
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,75.588,2013
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,74.737,2014
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,73.875,2015
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,73.045,2016
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,72.183,2017
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,72.023,2018
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,71.863,2019
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,65.58,2020
+AFG,Afghanistan,lfpr_m,"Labour force participation rate, male (% ages 15 and older)",GII,Gender Inequality Index,66.515,2021
+AFG,Afghanistan,loss,Overall loss (%),IHDI,Inequality-adjusted Human Development Index,30.35714286,2010
+AFG,Afghanistan,loss,Overall loss (%),IHDI,Inequality-adjusted Human Development Index,30.92105263,2011
+AFG,Afghanistan,loss,Overall loss (%),IHDI,Inequality-adjusted Human Development Index,30.68669528,2012
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.33,1990
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.28,1991
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.35,1992
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.1,1993
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.83,1994
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.81,1995
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.62,1996
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.73,1997
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.08,1998
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.03,1999
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.28,2000
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.34,2001
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.48,2002
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.63,2003
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.2,2004
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.02,2005
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.53,2006
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.53,2007
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.38,2008
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.43,2009
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.77,2010
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,2.12,2011
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.86,2012
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.88,2013
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.66,2014
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.62,2015
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.66,2016
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.41,2017
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.32,2018
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.38,2019
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.38,2020
+AFG,Afghanistan,mf,Material footprint per capita (tonnes),PHDI,Planetary pressures–adjusted Human Development Index,1.38,2021
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1500,1990
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1530,1991
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1520,1992
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1480,1993
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1540,1994
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1490,1995
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1440,1996
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1470,1997
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1410,1998
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1470,1999
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1450,2000
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1390,2001
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1300,2002
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1240,2003
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1180,2004
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1140,2005
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1120,2006
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1090,2007
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,1030,2008
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,993,2009
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,954,2010
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,905,2011
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,858,2012
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,810,2013
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,786,2014
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,701,2015
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,673,2016
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,638,2017
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,638,2018
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,638,2019
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,638,2020
+AFG,Afghanistan,mmr,"Maternal Mortality Ratio (deaths per 100,000 live births)",GII,Gender Inequality Index,638,2021
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,0.97112539,1990
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.019355778,1991
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.067586167,1992
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.115816555,1993
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.164046944,1994
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.212277332,1995
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.251383053,1996
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.290488773,1997
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.329594493,1998
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.368700214,1999
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.407805934,2000
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.465160991,2001
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.522516047,2002
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.579871104,2003
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.637226161,2004
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.694581217,2005
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.77670323,2006
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.858825243,2007
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,1.940947256,2008
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.023069268,2009
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.105191281,2010
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.157332242,2011
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.209473202,2012
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.261614163,2013
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.313755123,2014
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.365896084,2015
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.463660385,2016
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.561424686,2017
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.659188987,2018
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.756953288,2019
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.854717589,2020
+AFG,Afghanistan,mys,Mean Years of Schooling (years),HDI,Human Development Index,2.98506999,2021
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.342503031,1990
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.371860434,1991
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.401217837,1992
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.43057524,1993
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.459932642,1994
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.489290045,1995
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.518647448,1996
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.54800485,1997
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.577362253,1998
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.606719656,1999
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.636077058,2000
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.671958328,2001
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.707839598,2002
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.743720868,2003
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.779602138,2004
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.815483408,2005
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.841578877,2006
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.867674346,2007
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.893769815,2008
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.919865284,2009
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,0.945960754,2010
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,1.011199426,2011
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,1.076438099,2012
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,1.141676772,2013
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,1.206915444,2014
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,1.272154117,2015
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,1.430357898,2016
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,1.588561679,2017
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,1.74676546,2018
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,1.904969242,2019
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,2.063173023,2020
+AFG,Afghanistan,mys_f,"Mean Years of Schooling, female (years)",GDI,Gender Development Index,2.311079979,2021
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.311019876,1990
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.385485805,1991
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.459951734,1992
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.534417663,1993
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.608883592,1994
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.683349521,1995
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.736839132,1996
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.790328743,1997
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.843818354,1998
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.897307965,1999
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,1.950797576,2000
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.001140739,2001
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.051483902,2002
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.101827066,2003
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.152170229,2004
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.202513392,2005
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.300053271,2006
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.39759315,2007
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.495133029,2008
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.592672907,2009
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.690212786,2010
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.755239372,2011
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.820265958,2012
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.885292544,2013
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,2.95031913,2014
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,3.015345715,2015
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,3.082469933,2016
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,3.149594151,2017
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,3.216718368,2018
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,3.283842586,2019
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,3.350966804,2020
+AFG,Afghanistan,mys_m,"Mean Years of Schooling, male (years)",GDI,Gender Development Index,3.401309967,2021
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,25.92592593,2005
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,25.92592593,2006
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,25.87209302,2007
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,25.87209302,2008
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,25.92592593,2009
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.63532764,2010
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.63532764,2011
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.63532764,2012
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.63532764,2013
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.63532764,2014
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.44479495,2015
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.44479495,2016
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.44479495,2017
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.44479495,2018
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.24358974,2019
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.21518987,2020
+AFG,Afghanistan,pr_f,"Share of seats in parliament, female (% held by women)",GII,Gender Inequality Index,27.21518987,2021
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,74.07407407,2005
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,74.07407407,2006
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,74.12790698,2007
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,74.12790698,2008
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,74.07407407,2009
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.36467236,2010
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.36467236,2011
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.36467236,2012
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.36467236,2013
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.36467236,2014
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.55520505,2015
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.55520505,2016
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.55520505,2017
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.55520505,2018
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.75641026,2019
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.78481013,2020
+AFG,Afghanistan,pr_m,"Share of seats in parliament, male (% held by men)",GII,Gender Inequality Index,72.78481013,2021
+AFG,Afghanistan,rankdiff_hdi_phdi,Difference from HDI rank,PHDI,Planetary pressures–adjusted Human Development Index,5,2021
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,0.700484716,1990
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,0.772360539,1991
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,0.844236362,1992
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,0.916112186,1993
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,0.987988009,1994
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.059863832,1995
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.121384663,1996
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.182905495,1997
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.244426326,1998
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.305947158,1999
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.36746799,2000
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.476499959,2001
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.585531927,2002
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.694563896,2003
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.803595865,2004
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.912627834,2005
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.887654031,2006
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.862680228,2007
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.837706425,2008
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.812732622,2009
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,1.787758819,2010
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,2.008868343,2011
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,2.229977866,2012
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,2.45108739,2013
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,2.672196913,2014
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,2.893306437,2015
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,3.459785381,2016
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,4.026264326,2017
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,4.592743271,2018
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,5.159222215,2019
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,5.72570116,2020
+AFG,Afghanistan,se_f,"Population with at least some secondary education, female (% ages 25 and older)",GII,Gender Inequality Index,6.395730019,2021
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,5.419458611,1990
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,5.583395245,1991
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,5.747331878,1992
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,5.911268512,1993
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,6.075205145,1994
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,6.239141779,1995
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,6.344188554,1996
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,6.449235328,1997
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,6.554282103,1998
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,6.659328878,1999
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,6.764375653,2000
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,7.183766943,2001
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,7.603158234,2002
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,8.022549524,2003
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,8.441940815,2004
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,8.861332105,2005
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,9.45898459,2006
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,10.05663707,2007
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,10.65428956,2008
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,11.25194204,2009
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,11.84959453,2010
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,12.40825237,2011
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,12.96691022,2012
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,13.52556807,2013
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,14.08422592,2014
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,14.64288377,2015
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,14.66675803,2016
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,14.6906323,2017
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,14.71450657,2018
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,14.73838083,2019
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,14.7622551,2020
+AFG,Afghanistan,se_m,"Population with at least some secondary education, male (% ages 25 and older)",GII,Gender Inequality Index,14.86571026,2021
