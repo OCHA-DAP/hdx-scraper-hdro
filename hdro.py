@@ -1,114 +1,155 @@
 #!/usr/bin/python
 """
 HDRO:
------
+------------
 
-Reads HDRO's API and creates datasets.
+Reads Hdro JSON and creates datasets.
 
 """
-# https://data.humdata.org/organization/undp-human-development-reports-office
+
 import logging
+from slugify import slugify
 
 from hdx.data.dataset import Dataset
-from hdx.data.showcase import Showcase
 from hdx.location.country import Country
 from hdx.utilities.dateparse import parse_date_range
 from hdx.utilities.dictandlist import dict_of_lists_add
-from slugify import slugify
 
 logger = logging.getLogger(__name__)
 
-hxltags = {
-    "indicator_id": "#indicator+code",
-    "indicator_name": "#indicator+name",
-    "country_code": "#country+code",
-    "country_name": "#country+name",
-    "year": "#date+year",
-    "value": "#indicator+value+num",
-}
 
-
-def get_countriesdata(hdro_url, downloader):
-    response = downloader.download(hdro_url)
-    countriesdata = dict()
-    for row in response.json():
-        countryiso = row["country_code"]
-        dict_of_lists_add(countriesdata, countryiso, row)
-    return countriesdata
-
-
-def generate_dataset_and_showcase(folder, countryiso, countrydata, qc_indicators):
-    countryname = Country.get_country_name_from_iso3(countryiso)
-    title = f"{countryname} - Human Development Indicators"
-    slugified_name = slugify(f"HDRO data for {countryname}").lower()
-    logger.info(f"Creating dataset: {title}")
-    dataset = Dataset({"name": slugified_name, "title": title})
-    dataset.set_maintainer("872427e4-7e9b-44d6-8c58-30d5052a00a2")
-    dataset.set_organization("89ebe982-abe9-4748-9dde-cf04632757d6")
-    dataset.set_expected_update_frequency("Every year")
-    dataset.set_subnational(False)
-    dataset.add_country_location(countryiso)
-    tags = [
-        "health",
-        "education",
-        "socioeconomic",
-        "demographics",
-        "development",
-        "indicators",
-        "hxl",
-    ]
-    dataset.add_tags(tags)
-
-    filename = f"hdro_indicators_{countryiso}.csv"
-    resourcedata = {
-        "name": f"Human Development Indicators for {countryname}",
-        "description": "Human development data with HXL tags",
-    }
-    quickcharts = {
-        "hashtag": "#indicator+code",
-        "values": [x["code"] for x in qc_indicators],
-        "cutdown": 2,
-        "cutdownhashtags": ["#indicator+code", "#date+year", "#indicator+value+num"],
+class HDRO:
+    hxltags = {
+        "country_code": "#country+code",
+        "country_name": "#country+name",
+        "indicator_id": "#indicator+id",
+        "indicator_name": "#indicator+name",
+        "index_id": "#index+id",
+        "index_name": "#index+name",
+        "year": "#date+year",
+        "value": "#indicator+value+num",
     }
 
-    def yearcol_function(row):
-        result = dict()
-        year = row["year"]
-        if year:
-            if len(year) == 9:
-                startyear = year[:4]
-                endyear = year[5:]
-                result["startdate"], _ = parse_date_range(startyear, date_format="%Y")
-                _, result["enddate"] = parse_date_range(endyear, date_format="%Y")
-            else:
-                result["startdate"], result["enddate"] = parse_date_range(
-                    year, date_format="%Y"
-                )
-        return result
+    def __init__(self, configuration, retriever, folder):
+        self.configuration = configuration
+        self.retriever = retriever
+        self.folder = folder
+        self.country_data = {}
+        self.aggregate_data = {}
 
-    success, results = dataset.generate_resource_from_iterator(
-        countrydata[0].keys(),
-        countrydata,
-        hxltags,
-        folder,
-        filename,
-        resourcedata,
-        date_function=yearcol_function,
-        quickcharts=quickcharts,
-    )
-    if success is False:
-        logger.error(f"{countryname} has no data!")
-        return None, None, None
+    def get_country_data(self, countries_to_process):
+        for country_iso3 in countries_to_process:
+            base_url = self.configuration["base_url"]
+            jsonresponse = self.retriever.download_json(f"{base_url}{country_iso3}")
 
-    showcase = Showcase(
-        {
-            "name": f"{slugified_name}-showcase",
-            "title": f"Indicators for {countryname}",
-            "notes": f"Human Development indicators for {countryname}",
-            "url": f"http://hdr.undp.org/en/countries/profiles/{countryiso}",
-            "image_url": "https://s1.stabroeknews.com/images/2019/12/undp.jpg",
+            for row in jsonresponse:
+                # split hyphenated strings into separate columns
+                country = row["country"].split(' - ')
+                indicator = row["indicator"].split(' - ')
+                index = row["index"].split(' - ')
+
+                obj = {
+                    "country_code": country[0],
+                    "country_name": country[1],
+                    "indicator_id": indicator[0],
+                    "indicator_name": indicator[1],
+                    "index_id": index[0],
+                    "index_name": index[1],
+                    "value": row["value"],
+                    "year": row["year"]
+                }
+
+                # save indicator and aggregate values to separate dicts
+                if obj["indicator_id"].lower() == obj["index_id"].lower():
+                    dict_of_lists_add(self.aggregate_data, obj["country_code"], obj)
+                else:
+                    dict_of_lists_add(self.country_data, obj["country_code"], obj)
+
+        return [{"iso3": countryiso} for countryiso in sorted(self.country_data)]
+
+    def generate_dataset(self, countryiso, quickcharts):
+        countrydata = self.country_data[countryiso]
+        countryaggdata = self.aggregate_data[countryiso]
+        countryname = Country.get_country_name_from_iso3(countryiso)
+        title = f"{countryname} - Human Development Indicators"
+        logger.info(f"Creating dataset: {title}")
+        name = f"HDRO data for {countryname}"
+        slugified_name = slugify(name).lower()
+
+        dataset = Dataset({
+            "name": slugified_name,
+            "title": title
+        })
+        dataset.set_maintainer("872427e4-7e9b-44d6-8c58-30d5052a00a2")
+        dataset.set_organization("89ebe982-abe9-4748-9dde-cf04632757d6")
+        dataset.set_expected_update_frequency("Every year")
+        dataset.set_subnational(False)
+        dataset.add_country_location(countryiso)
+        tags = [
+            "health",
+            "education",
+            "socioeconomic",
+            "demographics",
+            "development",
+            "indicators",
+            "hxl",
+        ]
+        dataset.add_tags(tags)
+
+        def yearcol_function(row):
+            result = dict()
+            year = row["year"]
+            if year:
+                if len(year) == 9:
+                    startyear = year[:4]
+                    endyear = year[5:]
+                    result["startdate"], _ = parse_date_range(startyear, date_format="%Y")
+                    _, result["enddate"] = parse_date_range(endyear, date_format="%Y")
+                else:
+                    result["startdate"], result["enddate"] = parse_date_range(
+                        year, date_format="%Y"
+                    )
+            return result
+
+        filename = f"hdro_indicators_{countryiso.lower()}.csv"
+        resource = {
+            "name": f"Human Development Indicators for {countryname}",
+            "description": "Human development data with HXL tags"
         }
-    )
-    showcase.add_tags(tags)
 
-    return dataset, showcase, results["bites_disabled"]
+        success, _ = dataset.generate_resource_from_iterator(
+            list(countrydata[0].keys()),
+            countrydata,
+            self.hxltags,
+            self.folder,
+            filename,
+            resource,
+            date_function=yearcol_function,
+            quickcharts=None
+        )
+
+        if success is False:
+            logger.error(f"{countryname} has no data!")
+            return None
+
+        filenameagg = f"hdro_indicators_aggregates_{countryiso.lower()}.csv"
+        resourceagg = {
+            "name": f"Aggregated Human Development Indicators for {countryname}",
+            "description": "Aggregated human development data with HXL tags"
+        }
+        success, _ = dataset.generate_resource_from_iterator(
+            list(countryaggdata[0].keys()),
+            countryaggdata,
+            self.hxltags,
+            self.folder,
+            filenameagg,
+            resourceagg,
+            date_function=yearcol_function,
+            quickcharts=quickcharts
+        )
+
+        if success is False:
+            logger.error(f"{countryname} has no aggregate data!")
+            return None
+
+        return dataset
