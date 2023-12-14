@@ -148,8 +148,6 @@ class HDRO:
                 date_function=yearcol_function,
                 quickcharts=quickcharts
             )
-        else:
-            success = False
 
         if success is False:
             logger.error(f"{countryname} has no aggregate data!")
