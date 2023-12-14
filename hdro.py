@@ -69,7 +69,7 @@ class HDRO:
 
     def generate_dataset(self, countryiso, quickcharts):
         countrydata = self.country_data[countryiso]
-        countryaggdata = self.aggregate_data[countryiso]
+        countryaggdata = self.aggregate_data.get(countryiso)
         countryname = Country.get_country_name_from_iso3(countryiso)
         title = f"{countryname} - Human Development Indicators"
         logger.info(f"Creating dataset: {title}")
@@ -132,21 +132,24 @@ class HDRO:
             logger.error(f"{countryname} has no data!")
             return None
 
-        filenameagg = f"hdro_indicators_aggregates_{countryiso.lower()}.csv"
-        resourceagg = {
-            "name": f"Aggregated Human Development Indicators for {countryname}",
-            "description": "Aggregated human development data with HXL tags"
-        }
-        success, _ = dataset.generate_resource_from_iterator(
-            list(countryaggdata[0].keys()),
-            countryaggdata,
-            self.hxltags,
-            self.folder,
-            filenameagg,
-            resourceagg,
-            date_function=yearcol_function,
-            quickcharts=quickcharts
-        )
+        if countryaggdata:
+            filenameagg = f"hdro_indicators_aggregates_{countryiso.lower()}.csv"
+            resourceagg = {
+                "name": f"Aggregated Human Development Indicators for {countryname}",
+                "description": "Aggregated human development data with HXL tags"
+            }
+            success, _ = dataset.generate_resource_from_iterator(
+                list(countryaggdata[0].keys()),
+                countryaggdata,
+                self.hxltags,
+                self.folder,
+                filenameagg,
+                resourceagg,
+                date_function=yearcol_function,
+                quickcharts=quickcharts
+            )
+        else:
+            success = False
 
         if success is False:
             logger.error(f"{countryname} has no aggregate data!")
