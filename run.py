@@ -51,7 +51,7 @@ def main(save: bool = False, use_saved: bool = False) -> None:
 
                 if dataset:
                     dataset.update_from_yaml()
-                    dataset.generate_resource_view(
+                    dataset._generate_resource_view(
                         -1, indicators=qc_indicators
                     )
                     dataset.create_in_hdx(
