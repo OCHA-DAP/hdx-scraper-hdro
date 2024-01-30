@@ -47,13 +47,15 @@ def main(save: bool = False, use_saved: bool = False) -> None:
                     "cutdownhashtags": ["#index+id", "#date+year", "#indicator+value+num"],
                 }
 
-                dataset = hdro.generate_dataset(countryiso, quickcharts)
+                dataset, hasQC = hdro.generate_dataset(countryiso, quickcharts)
 
                 if dataset:
                     dataset.update_from_yaml()
-                    dataset.generate_quickcharts(
-                        -1, indicators=qc_indicators
-                    )
+                    if hasQC:
+                        dataset.generate_quickcharts(
+                            -1, indicators=qc_indicators
+                        )
+                    else: dataset.preview_off()
                     dataset.create_in_hdx(
                         remove_additional_resources=True,
                         hxl_update=False,

@@ -132,7 +132,11 @@ class HDRO:
             logger.error(f"{countryname} has no data!")
             return None
 
+        hasQC = False
         if countryaggdata:
+            # check for indicators needed for quick charts
+            hasQC = any(d['index_id'] == 'GDI' or d['index_id'] == 'GII' for d in countryaggdata)
+
             filenameagg = f"hdro_indicators_aggregates_{countryiso.lower()}.csv"
             resourceagg = {
                 "name": f"Aggregated Human Development Indicators for {countryname}",
@@ -146,11 +150,12 @@ class HDRO:
                 filenameagg,
                 resourceagg,
                 date_function=yearcol_function,
-                quickcharts=quickcharts
+                quickcharts=quickcharts if hasQC else None
             )
 
         if success is False:
             logger.error(f"{countryname} has no aggregate data!")
             return None
 
-        return dataset
+        return dataset, hasQC
+
