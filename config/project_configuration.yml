@@ -9,3 +9,7 @@ qc_indicators:
     code_col: "#index+id"
     title: "Gender Inequality Index (GII)"
     unit: "Index"
+  - code: 'HDI'
+    code_col: "#index+id"
+    title: "Human Development Index (HDI)"
+    unit: "Index"

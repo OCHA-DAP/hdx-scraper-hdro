@@ -135,7 +135,7 @@ class TestHDRO:
                 countries = hdro.get_country_data(["AFG"])
                 assert countries == [{"iso3": "AFG"}]
 
-                dataset = hdro.generate_dataset("AFG", quickcharts)
+                dataset, bites_disabled = hdro.generate_dataset("AFG", quickcharts)
                 assert dataset == self.dataset
                 resources = dataset.get_resources()
                 assert resources[0] == self.resources[0]
