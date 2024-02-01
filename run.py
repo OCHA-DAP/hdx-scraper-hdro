@@ -47,12 +47,12 @@ def main(save: bool = False, use_saved: bool = False) -> None:
                     "cutdownhashtags": ["#index+id", "#date+year", "#indicator+value+num"],
                 }
 
-                dataset = hdro.generate_dataset(countryiso, quickcharts)
+                dataset, bites_disabled = hdro.generate_dataset(countryiso, quickcharts)
 
                 if dataset:
                     dataset.update_from_yaml()
                     dataset.generate_quickcharts(
-                        -1, indicators=qc_indicators
+                        -1, bites_disabled=bites_disabled, indicators=qc_indicators
                     )
                     dataset.create_in_hdx(
                         remove_additional_resources=True,

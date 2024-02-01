@@ -88,6 +88,7 @@ class HDRO:
         tags = [
             "health",
             "education",
+            "gender",
             "socioeconomic",
             "demographics",
             "development",
@@ -111,13 +112,14 @@ class HDRO:
                     )
             return result
 
+
         filename = f"hdro_indicators_{countryiso.lower()}.csv"
         resource = {
             "name": f"Human Development Indicators for {countryname}",
             "description": "Human development data with HXL tags"
         }
 
-        success, _ = dataset.generate_resource_from_iterator(
+        success = dataset.generate_resource_from_iterator(
             list(countrydata[0].keys()),
             countrydata,
             self.hxltags,
@@ -130,15 +132,16 @@ class HDRO:
 
         if success is False:
             logger.error(f"{countryname} has no data!")
-            return None
+            return None, None
 
+        bites_disabled = [True, True, True]
         if countryaggdata:
             filenameagg = f"hdro_indicators_aggregates_{countryiso.lower()}.csv"
             resourceagg = {
                 "name": f"Aggregated Human Development Indicators for {countryname}",
                 "description": "Aggregated human development data with HXL tags"
             }
-            success, _ = dataset.generate_resource_from_iterator(
+            success, results = dataset.generate_resource_from_iterator(
                 list(countryaggdata[0].keys()),
                 countryaggdata,
                 self.hxltags,
@@ -149,8 +152,12 @@ class HDRO:
                 quickcharts=quickcharts
             )
 
-        if success is False:
-            logger.error(f"{countryname} has no aggregate data!")
-            return None
+            if success is False:
+                logger.error(f"{countryname} has no aggregate data!")
+                return None, None
 
-        return dataset
+            bites_disabled = results["bites_disabled"]
+
+        return dataset, bites_disabled
+
+

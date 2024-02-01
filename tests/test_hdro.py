@@ -38,6 +38,10 @@ class TestHDRO:
                 "vocabulary_id": "4e61d464-4943-4e97-973a-84673c1aaa87",
             },
             {
+                "name": "gender",
+                "vocabulary_id": "4e61d464-4943-4e97-973a-84673c1aaa87",
+            },
+            {
                 "name": "socioeconomic",
                 "vocabulary_id": "4e61d464-4943-4e97-973a-84673c1aaa87",
             },
@@ -135,7 +139,7 @@ class TestHDRO:
                 countries = hdro.get_country_data(["AFG"])
                 assert countries == [{"iso3": "AFG"}]
 
-                dataset = hdro.generate_dataset("AFG", quickcharts)
+                dataset, bites_disabled = hdro.generate_dataset("AFG", quickcharts)
                 assert dataset == self.dataset
                 resources = dataset.get_resources()
                 assert resources[0] == self.resources[0]
