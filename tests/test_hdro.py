@@ -109,6 +109,7 @@ class TestHDRO:
             "education",
             "socioeconomic",
             "demographics",
+            "gender",
             "development",
         )
         Vocabulary._tags_dict = {tag: {"Action to Take": "ok"} for tag in tags}
