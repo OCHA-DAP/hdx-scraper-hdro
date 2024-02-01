@@ -88,6 +88,7 @@ class HDRO:
         tags = [
             "health",
             "education",
+            "gender",
             "socioeconomic",
             "demographics",
             "development",

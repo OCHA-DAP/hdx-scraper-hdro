@@ -38,6 +38,10 @@ class TestHDRO:
                 "vocabulary_id": "4e61d464-4943-4e97-973a-84673c1aaa87",
             },
             {
+                "name": "gender",
+                "vocabulary_id": "4e61d464-4943-4e97-973a-84673c1aaa87",
+            },
+            {
                 "name": "socioeconomic",
                 "vocabulary_id": "4e61d464-4943-4e97-973a-84673c1aaa87",
             },
