@@ -11,6 +11,7 @@ import logging
 from slugify import slugify
 
 from hdx.data.dataset import Dataset
+from hdx.data.showcase import Showcase
 from hdx.location.country import Country
 from hdx.utilities.dateparse import parse_date_range
 from hdx.utilities.dictandlist import dict_of_lists_add
@@ -132,7 +133,7 @@ class HDRO:
 
         if success is False:
             logger.error(f"{countryname} has no data!")
-            return None, None
+            return None, None, None
 
         bites_disabled = [True, True, True]
         if countryaggdata:
@@ -154,10 +155,21 @@ class HDRO:
 
             if success is False:
                 logger.error(f"{countryname} has no aggregate data!")
-                return None, None
+                return None, None, None
 
             bites_disabled = results["bites_disabled"]
 
-        return dataset, bites_disabled
+            showcase = Showcase(
+                {
+                    "name": f"{slugified_name}-showcase",
+                    "title": f"Indicators for {countryname}",
+                    "notes": f"Human Development indicators for {countryname}",
+                    "url": f"https://hdr.undp.org/data-center/specific-country-data#/countries/{countryiso}",
+                    "image_url": "https://s1.stabroeknews.com/images/2019/12/undp.jpg",
+                }
+            )
+            showcase.add_tags(tags)
+
+        return dataset, showcase, bites_disabled
 
 
