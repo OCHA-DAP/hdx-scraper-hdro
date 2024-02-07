@@ -47,7 +47,7 @@ def main(save: bool = False, use_saved: bool = False) -> None:
                     "cutdownhashtags": ["#index+id", "#date+year", "#indicator+value+num"],
                 }
 
-                dataset, bites_disabled = hdro.generate_dataset(countryiso, quickcharts)
+                dataset, showcase, bites_disabled = hdro.generate_dataset(countryiso, quickcharts)
 
                 if dataset:
                     dataset.update_from_yaml()
@@ -60,6 +60,8 @@ def main(save: bool = False, use_saved: bool = False) -> None:
                         updated_by_script=updated_by_script,
                         batch=batch,
                     )
+                    showcase.create_in_hdx()
+                    showcase.add_dataset(dataset)
 
 
 if __name__ == "__main__":
