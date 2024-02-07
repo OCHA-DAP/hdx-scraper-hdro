@@ -76,6 +76,7 @@ class HDRO:
         logger.info(f"Creating dataset: {title}")
         name = f"HDRO data for {countryname}"
         slugified_name = slugify(name).lower()
+        showcase_url = "https://hdr.undp.org/data-center/country-insights"
 
         dataset = Dataset({
             "name": slugified_name,
@@ -158,17 +159,19 @@ class HDRO:
                 return None, None, None
 
             bites_disabled = results["bites_disabled"]
+            showcase_url = f"https://hdr.undp.org/data-center/specific-country-data#/countries/{countryiso}"
 
-            showcase = Showcase(
-                {
-                    "name": f"{slugified_name}-showcase",
-                    "title": f"Indicators for {countryname}",
-                    "notes": f"Human Development indicators for {countryname}",
-                    "url": f"https://hdr.undp.org/data-center/specific-country-data#/countries/{countryiso}",
-                    "image_url": "https://s1.stabroeknews.com/images/2019/12/undp.jpg",
-                }
-            )
-            showcase.add_tags(tags)
+        print(showcase_url)
+        showcase = Showcase(
+            {
+                "name": f"{slugified_name}-showcase",
+                "title": f"Indicators for {countryname}",
+                "notes": f"Human Development indicators for {countryname}",
+                "url": showcase_url,
+                "image_url": "https://s1.stabroeknews.com/images/2019/12/undp.jpg",
+            }
+        )
+        showcase.add_tags(tags)
 
         return dataset, showcase, bites_disabled
 
