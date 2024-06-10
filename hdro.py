@@ -32,18 +32,17 @@ class HDRO:
         "value": "#indicator+value+num",
     }
 
-    def __init__(self, configuration, retriever, folder, api_key):
+    def __init__(self, configuration, retriever, folder):
         self.configuration = configuration
         self.retriever = retriever
         self.folder = folder
         self.country_data = {}
         self.aggregate_data = {}
-        self.api_key = api_key
 
-    def get_country_data(self, countries_to_process):
+    def get_country_data(self, countries_to_process, api_key=""):
         for country_iso3 in countries_to_process:
             base_url = self.configuration["base_url"]
-            country_url = f"{base_url}query?apikey={self.api_key}&countryOrAggregation={country_iso3}"
+            country_url = f"{base_url}query?apikey={api_key}&countryOrAggregation={country_iso3}"
             try:
                 jsonresponse = self.retriever.download_json(
                     country_url,

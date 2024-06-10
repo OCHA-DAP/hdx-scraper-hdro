@@ -50,9 +50,9 @@ def main(api_key: str, save: bool = False, use_saved: bool = False, **ignore) ->
             batch = info["batch"]
             configuration = Configuration.read()
             qc_indicators = configuration["qc_indicators"]
-            hdro = HDRO(configuration, retriever, folder, api_key)
+            hdro = HDRO(configuration, retriever, folder)
             countries_to_process = Country.countriesdata()["countries"].keys()
-            countries = hdro.get_country_data(countries_to_process)
+            countries = hdro.get_country_data(countries_to_process, api_key)
             logger.info(f"Number of countries to upload: {len(countries)}")
 
             for _, nextdict in progress_storing_folder(info, countries, "iso3"):

@@ -135,7 +135,7 @@ class TestHDRO:
                 }
 
                 # indicator dataset test
-                hdro = HDRO(configuration, retriever, folder, "api_key")
+                hdro = HDRO(configuration, retriever, folder)
                 countries = hdro.get_country_data(["AFG"])
                 assert countries == [{"iso3": "AFG"}]
 
