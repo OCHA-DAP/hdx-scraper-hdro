@@ -132,7 +132,7 @@ class HDRO:
             "description": "Human development data with HXL tags"
         }
 
-        success = dataset.generate_resource_from_iterator(
+        success = dataset.generate_resource_from_iterable(
             list(countrydata[0].keys()),
             countrydata,
             self.hxltags,
@@ -154,7 +154,7 @@ class HDRO:
                 "name": f"Aggregated Human Development Indicators for {countryname}",
                 "description": "Aggregated human development data with HXL tags"
             }
-            success, results = dataset.generate_resource_from_iterator(
+            success, results = dataset.generate_resource_from_iterable(
                 list(countryaggdata[0].keys()),
                 countryaggdata,
                 self.hxltags,
