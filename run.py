@@ -3,11 +3,13 @@
 Top level script. Calls other functions that generate datasets that this script then creates in HDX.
 
 """
+import argparse
 import logging
+from os import getenv
 from os.path import join, expanduser
 
 from hdx.api.configuration import Configuration
-from hdx.facades.infer_arguments import facade
+from hdx.facades.keyword_arguments import facade
 from hdx.location.country import Country
 from hdx.utilities.downloader import Download
 from hdx.utilities.path import progress_storing_folder, wheretostart_tempdir_batch
@@ -21,7 +23,22 @@ lookup = "hdx-scraper-hdro"
 updated_by_script = "HDX Scraper: HDRO"
 
 
-def main(save: bool = False, use_saved: bool = False) -> None:
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-ak", "--api_key", default=None, help="Key for accessing HDRO API",
+    )
+    parser.add_argument(
+        "-s", "--save", default=False, action="store_true", help="Save data for testing",
+    )
+    parser.add_argument(
+        "-usv", "--use-saved", default=False, action="store_true", help="Use saved data",
+    )
+    args = parser.parse_args()
+    return args
+
+
+def main(api_key: str, save: bool = False, use_saved: bool = False, **ignore) -> None:
     """Generate dataset and create it in HDX"""
     with wheretostart_tempdir_batch(lookup) as info:
         folder = info["folder"]
@@ -33,7 +50,7 @@ def main(save: bool = False, use_saved: bool = False) -> None:
             batch = info["batch"]
             configuration = Configuration.read()
             qc_indicators = configuration["qc_indicators"]
-            hdro = HDRO(configuration, retriever, folder)
+            hdro = HDRO(configuration, retriever, folder, api_key)
             countries_to_process = Country.countriesdata()["countries"].keys()
             countries = hdro.get_country_data(countries_to_process)
             logger.info(f"Number of countries to upload: {len(countries)}")
@@ -65,9 +82,16 @@ def main(save: bool = False, use_saved: bool = False) -> None:
 
 
 if __name__ == "__main__":
+    args = parse_args()
+    api_key = args.api_key
+    if api_key is None:
+        api_key = getenv("API_KEY")
     facade(
         main,
-        user_agent_config_yaml=join(expanduser("~"), ".useragents.yml"),
+        user_agent_config_yaml=join(expanduser("~"), ".useragents.yaml"),
         user_agent_lookup=lookup,
-        project_config_yaml=join("config", "project_configuration.yml")
+        project_config_yaml=join("config", "project_configuration.yaml"),
+        api_key=api_key,
+        save=args.save,
+        use_saved=args.use_saved,
     )
