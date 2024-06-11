@@ -11,7 +11,6 @@ from hdx.api.locations import Locations
 from hdx.data.vocabulary import Vocabulary
 from hdx.location.country import Country
 from hdx.utilities.compare import assert_files_same
-from hdx.utilities.dateparse import parse_date
 from hdx.utilities.downloader import Download
 from hdx.utilities.path import temp_dir
 from hdx.utilities.retriever import Retrieve
@@ -22,7 +21,7 @@ from hdro import HDRO
 class TestHDRO:
     dataset = {
         "data_update_frequency": "365",
-        "dataset_date": "[1990-01-01T00:00:00 TO 2021-12-31T23:59:59]",
+        "dataset_date": "[1990-01-01T00:00:00 TO 2022-12-31T23:59:59]",
         "groups": [{"name": "afg"}],
         "maintainer": "872427e4-7e9b-44d6-8c58-30d5052a00a2",
         "name": "hdro-data-for-afghanistan",
@@ -97,7 +96,7 @@ class TestHDRO:
         Configuration._create(
             hdx_read_only=True,
             user_agent="test",
-            project_config_yaml=join("config", "project_configuration.yml"),
+            project_config_yaml=join("config", "project_configuration.yaml"),
         )
         UserAgent.set_global("test")
         Locations.set_validlocations([{"name": "afg", "title": "Afghanistan"}])

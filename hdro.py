@@ -15,6 +15,7 @@ from hdx.data.showcase import Showcase
 from hdx.location.country import Country
 from hdx.utilities.dateparse import parse_date_range
 from hdx.utilities.dictandlist import dict_of_lists_add
+from hdx.utilities.downloader import DownloadError
 
 logger = logging.getLogger(__name__)
 
@@ -38,16 +39,24 @@ class HDRO:
         self.country_data = {}
         self.aggregate_data = {}
 
-    def get_country_data(self, countries_to_process):
+    def get_country_data(self, countries_to_process, api_key=""):
         for country_iso3 in countries_to_process:
             base_url = self.configuration["base_url"]
-            jsonresponse = self.retriever.download_json(f"{base_url}{country_iso3}")
+            country_url = f"{base_url}query?apikey={api_key}&countryOrAggregation={country_iso3}"
+            try:
+                jsonresponse = self.retriever.download_json(
+                    country_url,
+                    filename=f"compositeindices-{country_iso3.lower()}.json",
+                )
+            except DownloadError:
+                logger.error(f"Could not get data for {country_iso3}")
+                continue
 
             for row in jsonresponse:
                 # split hyphenated strings into separate columns
-                country = row["country"].split(' - ')
-                indicator = row["indicator"].split(' - ')
-                index = row["index"].split(' - ')
+                country = row["country"].split(" - ")
+                indicator = row["indicator"].split(" - ")
+                index = row["index"].split(" - ")
 
                 obj = {
                     "country_code": country[0],
@@ -103,9 +112,11 @@ class HDRO:
             result = dict()
             year = row["year"]
             if year:
-                if len(year) == 9:
+                if len(year) > 4:
                     startyear = year[:4]
                     endyear = year[5:]
+                    if len(endyear) == 2:
+                        endyear = f"{startyear[:2]}{endyear}"
                     result["startdate"], _ = parse_date_range(startyear, date_format="%Y")
                     _, result["enddate"] = parse_date_range(endyear, date_format="%Y")
                 else:
@@ -114,14 +125,13 @@ class HDRO:
                     )
             return result
 
-
         filename = f"hdro_indicators_{countryiso.lower()}.csv"
         resource = {
             "name": f"Human Development Indicators for {countryname}",
             "description": "Human development data with HXL tags"
         }
 
-        success = dataset.generate_resource_from_iterator(
+        success = dataset.generate_resource_from_iterable(
             list(countrydata[0].keys()),
             countrydata,
             self.hxltags,
@@ -143,7 +153,7 @@ class HDRO:
                 "name": f"Aggregated Human Development Indicators for {countryname}",
                 "description": "Aggregated human development data with HXL tags"
             }
-            success, results = dataset.generate_resource_from_iterator(
+            success, results = dataset.generate_resource_from_iterable(
                 list(countryaggdata[0].keys()),
                 countryaggdata,
                 self.hxltags,
@@ -161,7 +171,6 @@ class HDRO:
             bites_disabled = results["bites_disabled"]
             showcase_url = f"https://hdr.undp.org/data-center/specific-country-data#/countries/{countryiso}"
 
-        print(showcase_url)
         showcase = Showcase(
             {
                 "name": f"{slugified_name}-showcase",
@@ -174,5 +183,3 @@ class HDRO:
         showcase.add_tags(tags)
 
         return dataset, showcase, bites_disabled
-
-
