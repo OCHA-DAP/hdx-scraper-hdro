@@ -1,5 +1,6 @@
  ### Collector for HDRO's Datasets
-[![Build Status](https://github.com/OCHA-DAP/hdx-scraper-hdro/workflows/build/badge.svg)](https://github.com/OCHA-DAP/hdx-scraper-hdro/actions?query=workflow%3Abuild) [![Coverage Status](https://coveralls.io/repos/github/OCHA-DAP/hdx-scraper-hdro/badge.svg?branch=main&ts=1)](https://coveralls.io/github/OCHA-DAP/hdx-scraper-hdro?branch=main)
+[![Build Status](https://github.com/OCHA-DAP/hdx-scraper-hdro/actions/workflows/run-python-tests.yaml/badge.svg)](https://github.com/OCHA-DAP/hdx-scraper-hdro/actions/workflows/run-python-tests.yaml)
+[![Coverage Status](https://coveralls.io/repos/github/OCHA-DAP/hdx-scraper-hdro/badge.svg?branch=main&ts=1)](https://coveralls.io/github/OCHA-DAP/hdx-scraper-hdro?branch=main)
 
 This script connects to the [HDRO API](https://hdrdata.org) and extracts country by country creating a dataset per country in HDX. It makes around 200 reads from HDRO and 200 read/writes (API calls) to HDX in total. It creates 2 temporary files per country of no more than 100Kb size. It is run every year. 
 
