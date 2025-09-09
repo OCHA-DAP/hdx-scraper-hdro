@@ -1,0 +1,11 @@
+# Collector specific configuration
+base_url: "https://hdrdata.org/api/CompositeIndices/"
+
+tags:
+  - health
+  - education
+  - gender
+  - socioeconomics
+  - demographics
+  - development
+  - indicators

@@ -1,5 +1,4 @@
 country_code,country_name,indicator_id,indicator_name,index_id,index_name,value,year
-#country+code,#country+name,#indicator+id,#indicator+name,#index+id,#index+name,#indicator+value+num,#date+year
 AFG,Afghanistan,gdi,Gender Development Index (value),GDI,Gender Development Index,0.682,2008
 AFG,Afghanistan,gdi,Gender Development Index (value),GDI,Gender Development Index,0.685,2009
 AFG,Afghanistan,gdi,Gender Development Index (value),GDI,Gender Development Index,0.684,2010

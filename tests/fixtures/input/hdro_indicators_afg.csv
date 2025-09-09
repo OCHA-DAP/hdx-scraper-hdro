@@ -1,5 +1,4 @@
 country_code,country_name,indicator_id,indicator_name,index_id,index_name,value,year
-#country+code,#country+name,#indicator+id,#indicator+name,#index+id,#index+name,#indicator+value+num,#date+year
 AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,142.96,1990
 AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,147.525,1991
 AFG,Afghanistan,abr,"Adolescent Birth Rate (births per 1,000 women ages 15-19)",GII,Gender Inequality Index,147.521,1992
