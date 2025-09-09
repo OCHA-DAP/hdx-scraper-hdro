@@ -36,9 +36,9 @@ def _get_api_key() -> str:
     if os.getenv("GITHUB_ACTIONS") is None:
         load_dotenv()
 
-    key = os.getenv("API_KEY")
+    key = os.getenv("HDRO_API_KEY")
     if not key:
-        logger.error("API_KEY is missing.")
+        logger.error("HDRO_API_KEY is missing.")
     return key
 
 

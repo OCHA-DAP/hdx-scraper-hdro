@@ -11,7 +11,7 @@ from hdx.scraper.hdro.pipeline import Pipeline
 
 class TestPipeline:
     def test_pipeline(self, configuration, fixtures_dir, input_dir, config_dir):
-        HDRO_API_KEY = os.getenv("API_KEY")
+        HDRO_API_KEY = os.getenv("HDRO_API_KEY")
 
         with temp_dir(
             "TestHdro",
