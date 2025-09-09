@@ -12,6 +12,7 @@ from os.path import expanduser, join
 from dotenv import load_dotenv
 from hdx.api.configuration import Configuration
 from hdx.facades.infer_arguments import facade
+from hdx.location.country import Country
 from hdx.utilities.downloader import Download
 from hdx.utilities.path import (
     progress_storing_folder,
@@ -74,9 +75,7 @@ def main(
             #
             # Steps to generate dataset
             #
-            countries_to_process = {
-                "AFG": None
-            }.keys()  # Country.countriesdata()["countries"].keys()
+            countries_to_process = Country.countriesdata()["countries"].keys()
             countries = pipeline.get_country_data(countries_to_process, HDRO_API_KEY)
             logger.info(f"Number of countries to upload: {len(countries)}")
 
