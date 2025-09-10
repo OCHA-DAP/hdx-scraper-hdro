@@ -40,7 +40,7 @@ class TestPipeline:
                 )
                 assert dataset == {
                     "caveats": "",
-                    "data_update_frequency": 365,
+                    "data_update_frequency": 180,
                     "dataset_date": "[1990-01-01T00:00:00 TO 2022-12-31T23:59:59]",
                     "dataset_source": "HDRO",
                     "groups": [{"name": "afg"}],
