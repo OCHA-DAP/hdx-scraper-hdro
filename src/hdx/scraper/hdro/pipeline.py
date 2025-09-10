@@ -17,19 +17,24 @@ logger = logging.getLogger(__name__)
 
 
 class Pipeline:
-    def __init__(self, configuration: Configuration, retriever: Retrieve, tempdir: str):
+    def __init__(
+        self,
+        configuration: Configuration,
+        retriever: Retrieve,
+        tempdir: str,
+        HDRO_API_KEY: str,
+    ):
         self._configuration = configuration
         self._retriever = retriever
         self._tempdir = tempdir
+        self._HDRO_API_KEY = HDRO_API_KEY
         self._country_data = {}
         self._aggregate_data = {}
 
-    def get_country_data(self, countries_to_process, api_key=""):
+    def get_country_data(self, countries_to_process):
         for country_iso3 in countries_to_process:
             base_url = self._configuration["base_url"]
-            country_url = (
-                f"{base_url}query?apikey={api_key}&countryOrAggregation={country_iso3}"
-            )
+            country_url = f"{base_url}query?apikey={self._HDRO_API_KEY}&countryOrAggregation={country_iso3}"
             try:
                 jsonresponse = self._retriever.download_json(
                     country_url,

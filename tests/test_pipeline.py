@@ -27,11 +27,9 @@ class TestPipeline:
                     save=False,
                     use_saved=True,
                 )
-                pipeline = Pipeline(configuration, retriever, tempdir)
+                pipeline = Pipeline(configuration, retriever, tempdir, HDRO_API_KEY)
                 countries_to_process = {"AFG": None}.keys()
-                countries = pipeline.get_country_data(
-                    countries_to_process, HDRO_API_KEY
-                )
+                countries = pipeline.get_country_data(countries_to_process)
 
                 countryiso = countries[0]["iso3"]
 

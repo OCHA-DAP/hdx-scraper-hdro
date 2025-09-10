@@ -30,16 +30,13 @@ _LOOKUP = "hdx-scraper-hdro"
 _SAVED_DATA_DIR = "saved_data"  # Keep in repo to avoid deletion in /tmp
 _UPDATED_BY_SCRIPT = "HDX Scraper: Hdro"
 
+# Load local .env file if not running in GitHub Actions
+if os.getenv("GITHUB_ACTIONS") is None:
+    load_dotenv()
 
-def _get_api_key() -> str:
-    # Load .env only for local runs
-    if os.getenv("GITHUB_ACTIONS") is None:
-        load_dotenv()
-
-    key = os.getenv("HDRO_API_KEY")
-    if not key:
-        logger.error("HDRO_API_KEY is missing.")
-    return key
+HDRO_API_KEY = os.getenv("HDRO_API_KEY")
+if not HDRO_API_KEY:
+    logger.error("HDRO_API_KEY is missing.")
 
 
 def main(
@@ -55,8 +52,6 @@ def main(
     Returns:
         None
     """
-    HDRO_API_KEY = _get_api_key()
-
     logger.info(f"##### {_LOOKUP} version {__version__} ####")
     configuration = Configuration.read()
 
@@ -71,12 +66,12 @@ def main(
                 save=save,
                 use_saved=use_saved,
             )
-            pipeline = Pipeline(configuration, retriever, tempdir)
+            pipeline = Pipeline(configuration, retriever, tempdir, HDRO_API_KEY)
             #
             # Steps to generate dataset
             #
             countries_to_process = Country.countriesdata()["countries"].keys()
-            countries = pipeline.get_country_data(countries_to_process, HDRO_API_KEY)
+            countries = pipeline.get_country_data(countries_to_process)
             logger.info(f"Number of countries to upload: {len(countries)}")
 
             for _, nextdict in progress_storing_folder(info, countries, "iso3"):
@@ -104,7 +99,7 @@ def main(
 if __name__ == "__main__":
     facade(
         main,
-        hdx_site="demo",
+        # hdx_site="demo",
         user_agent_config_yaml=join(expanduser("~"), ".useragents.yaml"),
         user_agent_lookup=_LOOKUP,
         project_config_yaml=script_dir_plus_file(
