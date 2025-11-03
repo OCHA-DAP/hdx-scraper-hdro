@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/OCHA-DAP/hdx-scraper-hdro/badge.svg?branch=main&ts=1)](https://coveralls.io/github/OCHA-DAP/hdx-scraper-hdro?branch=main)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-This script ...
+This script connects to the [HDRO API](https://hdrdata.org) and extracts country by country creating a dataset per country in HDX. It makes around 200 reads from HDRO and 200 read/writes (API calls) to HDX in total. It creates 2 temporary files per country of no more than 100Kb size. It is run every six months.
 
 ## Development
 
