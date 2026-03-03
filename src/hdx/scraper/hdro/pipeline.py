@@ -106,18 +106,16 @@ class Pipeline:
         filename = f"hdro_indicators_{countryiso.lower()}.csv"
         resource = {
             "name": f"Human Development Indicators for {countryname}",
-            "description": "Human development data with HXL tags",
+            "description": "Human development data",
         }
 
-        success = dataset.generate_resource_from_iterable(
-            list(countrydata[0].keys()),
-            countrydata,
-            {},
+        success = dataset.generate_resource(
             self._tempdir,
             filename,
+            countrydata,
             resource,
+            list(countrydata[0].keys()),
             date_function=yearcol_function,
-            quickcharts=None,
         )
 
         if success is False:
@@ -128,17 +126,15 @@ class Pipeline:
             filenameagg = f"hdro_indicators_aggregates_{countryiso.lower()}.csv"
             resourceagg = {
                 "name": f"Aggregated Human Development Indicators for {countryname}",
-                "description": "Aggregated human development data with HXL tags",
+                "description": "Aggregated human development data",
             }
-            success, results = dataset.generate_resource_from_iterable(
-                list(countryaggdata[0].keys()),
-                countryaggdata,
-                {},
+            success, results = dataset.generate_resource(
                 self._tempdir,
                 filenameagg,
+                countryaggdata,
                 resourceagg,
+                list(countryaggdata[0].keys()),
                 date_function=yearcol_function,
-                quickcharts=None,
             )
 
             if success is False:

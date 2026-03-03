@@ -125,12 +125,12 @@ class TestPipeline:
                 assert resources == [
                     {
                         "name": "Human Development Indicators for Afghanistan",
-                        "description": "Human development data with HXL tags",
+                        "description": "Human development data",
                         "format": "csv",
                     },
                     {
                         "name": "Aggregated Human Development Indicators for Afghanistan",
-                        "description": "Aggregated human development data with HXL tags",
+                        "description": "Aggregated human development data",
                         "format": "csv",
                     },
                 ]
